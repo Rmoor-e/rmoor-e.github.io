@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hobbies on Robert J. Moore</title>
+    <link>https://rmoor-e.github.io/hobbies/</link>
+    <description>Recent content in Hobbies on Robert J. Moore</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://rmoor-e.github.io/hobbies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://rmoor-e.github.io/hobbies/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://rmoor-e.github.io/hobbies/portfolio/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html class=&#34;port&#34;&gt;&#xA;&lt;head&gt;&#xA;  &lt;link rel=&#34;stylesheet&#34; href=&#34;portfolio.css&#34;&gt;&#xA;&lt;/head&gt;&#xA;&lt;body class=&#34;port&#34;&gt;&#xA;&#xA;&lt;div class=&#34;bg-img&#34;&gt;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xA;    &lt;div class=&#34;topnav&#34;&gt;&#xA;      &lt;a href=&#34;https://rmoor-e.github.io/index.html&#34;&gt;Home&lt;/a&gt;&#xA;      &lt;a href=&#34;https://rmoor-e.github.io/resume/index.html&#34;&gt;Resume&lt;/a&gt;&#xA;      &lt;a href=&#34;https://rmoor-e.github.io/projects/index.html&#34;&gt;Projects&lt;/a&gt;&#xA;      &lt;br&gt;&#xA;      &lt;a href=&#34;https://rmoor-e.github.io/hobbies/index.html&#34;&gt;Hobbies&lt;/a&gt;&#xA;      &lt;a href=&#34;https://rmoor-e.github.io/robert-moore-public-GPG.asc&#34;&gt;PGP Key&lt;/a&gt;&#xA;      &lt;a href=&#34;https://rmoor-e.github.io/work/index.html&#34;&gt;Experience&lt;/a&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;image&#34;&gt; &#xA;&lt;img src=&#34;../css/quil.png&#34; alt=&#34;psyquil&#34; width=&#34;100px&#34;&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;h1&gt;&#xA;Photography Portfolio&#xA;&lt;/h1&gt;&#xA;&lt;p class=&#34;description&#34;&gt; &#xA;Herein contains my decade long portfolio. I hope you enjoy!&#xA;&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;br&gt;&#xA;&lt;br&gt;&#xA;&#xA;&lt;section id=&#34;photos&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/1.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/2.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/3.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/6.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/5.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/4.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/7.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/8.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/9.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/10.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/11.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/12.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/13.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/14.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/15.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/16.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/17.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/18.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/19.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/20.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/21.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/22.jpg&#34;&gt;&#xA;&#xA;&lt;img src=&#34;portfolio/23.jpg&#34;&gt;&#xA;&#xA;&lt;/section&gt;&#xA;&#xA;&lt;/body&gt;&#xA;&lt;/html&gt;</description>
+    </item>
+  </channel>
+</rss>

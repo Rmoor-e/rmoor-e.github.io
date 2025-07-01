@@ -1,0 +1,273 @@
+div.image {
+    position: fixed; /* Keep it fixed in the viewport */
+    bottom: 0;    /* Distance from the bottom */
+    right: 0;     /* Distance from the right */
+    z-index: -1;
+   	/*max-width: 1000px;      /* Ensure it appears above other content */
+}
+
+div.image img {
+    width: 187px;    /* Set the width of the image */
+    height: auto;    /* Maintain aspect ratio */
+    max-width: 1000px;      /* Ensure it appears above other content */
+}
+
+
+video {
+	vertical-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+iframe {
+    border: none;
+}
+
+
+body {
+/*	background-color:#020E20ff;*/
+	background-image: linear-gradient(#020E20ff, #26595Dff);
+	background-repeat: no-repeat;
+	width: 50%;
+	vertical-align: center;
+	margin: auto;
+	min-height: 100%; 
+}
+
+html {
+	min-height: 100%
+}
+
+
+/* Colour Palate to Match Background of nature2.jpg
+--rich-black: #020E20ff;
+--dark-slate-gray: #26595Dff;
+--light-blue: #9CCCD4ff;
+--alice-blue: #D6EBF5ff;
+--alice-blue-2: ;
+*/
+
+
+/* Title */
+
+h1 {
+    font-size: 24pt;
+    text-align: center;
+    color: #FBFAF5;
+}
+
+
+h2 {
+	font-size: 22pt;
+	text-align: center;
+	color: #FBFAF5;
+}
+
+
+h3 {
+	font-size: 18pt;
+	text-align: center;
+    color: #FBFAF5;
+}
+
+code {
+	font-family: monospace;
+}
+
+p.paragraph {
+ 	text-align: justify;
+	width: 100%;
+	line-height: 2.0;
+	margin: 0;
+    color: #FBFAF5;
+}
+
+p.prose {
+ 	text-align: justify;
+	width: 100%;
+	line-height: 2.0;
+	margin: fixed;
+    color: #FBFAF5;
+    text-indent: 50px
+}
+
+p.description {
+	font-style: italic;
+	text-align: justify;
+	color: #FBFAF5;
+	width: 75%;
+	margin: auto;
+}
+
+p.center {
+ 	text-align: center;
+	width: 100%;
+	line-height: 2.0;
+	margin: fixed;
+    color: #FBFAF5;
+}
+
+
+p.just {
+	line-height: 1.0;
+    color: #FBFAF5 !important;
+    	line-height: 2.0;
+}
+
+.poem {
+  text-align: center;
+}
+
+.poemtext {
+  display: inline-block;
+  text-align: left;
+  color: #FBFAF5 !important;
+}
+
+
+b {
+	color: powderblue;
+}
+
+li {
+	color: #FBFAF5;	
+	text-align: left;
+}
+
+hr {
+	width: 300px
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.resume {
+	display: block;
+	margin-left: auto;
+	margin-right: flex;
+	width: 100%;
+}
+
+.btn {
+  background-color: maroon;
+  border: solid;
+  color: white !important;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 30px 30px 30px;
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: wine;
+  color: white;
+}
+
+.typeset {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.work1 {
+	display: block;
+	margin-left: fixed;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 15px 50px 30px;
+	float: right;
+	padding-left:5px;
+	padding-right:0px;
+	padding-top: 5px;
+	padding-bottom:0px;
+	
+}
+
+.work2 {
+	display: block;
+	margin-left: auto;
+	margin-right: fixed;
+	width: 50%;
+	border-radius: 15px 50px 30px;
+	float: left;
+	padding-left:0px;
+	padding-right:5px;
+	padding-top: 5px;
+	padding-bottom:0px;	
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("nature2.jpg");
+
+  min-height: 250px;
+  min-width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+
+  /* rounded corners */
+  border-radius: 15px 50px 30px;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 0px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  background-color: transparent;
+  color: black;
+}
+
+/* unvisited link */
+a:link {
+  color: steelblue;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkblue;
+}
+
+/* selected link */
+a:active {
+  color: teal;
+}

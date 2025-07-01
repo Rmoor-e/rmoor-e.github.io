@@ -1,0 +1,278 @@
+/* I used AI to fix my code because I can't find the mistake. dev tools in firefox showed me that my CSS was corrupted. idk. weird. */
+/*div.image2 {
+    position: fixed;
+    top: 80%;
+    right: 16%;
+    left: 2px;
+    bottom: 0px;
+    z-index: -1;
+    overflow-clip-margin: content-box;
+} */
+
+div.image2 {
+    position: fixed; /* Keep it fixed in the viewport */
+    bottom: 0px;    /* Distance from the bottom */
+    right: 0px;     /* Distance from the right */
+    z-index: -1;
+   	/*max-width: 1000px;      /* Ensure it appears above other content */
+}
+
+div.image2 img {
+    width: 187px;    /* Set the width of the image */
+    height: auto;    /* Maintain aspect ratio */
+    max-width: 1000px;      /* Ensure it appears above other content */
+}
+
+
+video {
+    vertical-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    border: none; /* Corrected syntax */
+}
+
+body {
+    /* background-color: #020E20ff; */
+    background-image: linear-gradient(#020E20ff, #26595Dff);
+    background-repeat: no-repeat;
+    width: 50%;
+    vertical-align: center;
+    margin: auto;
+    min-height: 100%;
+}
+
+html {
+    min-height: 100%;
+}
+
+/* Title */
+h1 {
+    font-size: 24pt;
+    text-align: center;
+    color: #FBFAF5;
+}
+
+h2 {
+    font-size: 22pt;
+    text-align: center;
+    color: #FBFAF5;
+}
+
+h3 {
+    font-size: 18pt;
+    text-align: center;
+    color: #FBFAF5;
+}
+
+code {
+    font-family: monospace;
+}
+
+p {
+    text-align: justify;
+    width: 100%;
+    line-height: 2.0 !important;
+    margin-bottom: 1em; /* Fixed typo */
+    margin: fixed; /* This should be removed or corrected */
+    color: #FBFAF5 !important;
+    /* text-indent: 20px; /* Adjust the value as needed */ */
+}
+
+p:nth-of-type(n+2) {
+    text-indent: 30px; /* Adjust the value as needed */
+}
+
+
+
+
+center {
+    text-align: center;
+    width: 100%;
+    line-height: 2.0 !important;
+    margin-bottom: 1em; /* Fixed typo */
+    margin: fixed; /* This should be removed or corrected */
+    color: #FBFAF5 !important;
+
+}
+
+
+b {
+    color: powderblue;
+}
+
+li {
+    color: #FBFAF5;
+    text-align: left;
+}
+
+hr {
+    width: 300px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Changed from flex to auto for centering */
+    width: 20%;
+}
+
+.bg-img {
+    background-image: url("nature2.jpg");
+    min-height: 250px;
+    min-width: 100%;
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 15px 50px 30px;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 0px;
+    width: auto;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: transparent; /* Removed duplicate line */
+    color: black;
+}
+
+/* unvisited link */
+a:link {
+    color: steelblue;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkblue;
+}
+
+/* selected link */
+a:active {
+    color: teal;
+}
+
+button {
+    background: linear-gradient(135deg, #020E20ff, #26595Dff);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: linear-gradient(135deg, #26595Dff, #26595Dff);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.navigation-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.citation {
+    border-left: 4px solid #007bff; /* Change color as needed */
+    padding-left: 10px;
+    margin: 20px 0;
+    font-style: italic; /* Optional: italicize citation text */
+}
+
+
+/* Initialize the counter for the ordered list */
+.footnotes ol {
+    counter-reset: footnote-counter; /* Reset the counter for footnotes */
+    list-style: none; /* Remove default list styling */
+    padding-left: 0; /* Remove padding */
+    margin: 1em 0; /* Margin around the footnotes section */
+}
+
+/* Style each footnote list item */
+.footnotes li {
+    counter-increment: footnote-counter; /* Increment the counter for each list item */
+    margin: 0.5em 0; /* Space between footnotes */
+    padding-left: 1.5em; /* Indent footnote text */
+    position: relative; /* Position for pseudo-elements */
+    font-size: 0.9em; /* Consistent font size for footnote text */
+    color: #444; /* Dark gray for better readability */
+}
+
+/* Display the counter before each footnote */
+.footnotes li::before {
+    content: counter(footnote-counter) ". "; /* Display the counter followed by a period */
+    font-weight: bold; /* Bold for emphasis */
+    color: #000; /* Black color for the footnote number */
+    position: relative; /* Position the number */
+    left: 0; /* Align with the left edge of the footnote */
+    top: 0; /* Align with the top of the footnote text */
+    transform: translateY(-50%); /* Center the number vertically */
+    font-size: 1.05em; /* Match the font size of the footnote text */
+    margin-left: 3.0em; /* Add space between the number and the text */
+}
+
+
+/* Style the footnote content */
+.footnotes p {
+    display: inline; /* Keep the paragraph inline */
+    margin: 0; /* Remove default margin */
+    line-height: 1.4; /* Increase line height for better readability */
+}
+
+/* Style the back reference link */
+.footnote-backref {
+    text-decoration: none; /* Remove underline */
+    color: #007bff; /* Blue color for back reference */
+    font-size: 0.85em; /* Smaller font size for back reference */
+    margin-left: 0.5em; /* Space between text and back reference */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth color and underline transition */
+}
+
+/* Change color and underline on hover for back reference */
+.footnote-backref:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .footnotes li {
+        font-size: 0.8em; /* Slightly smaller font size on smaller screens */
+    }
+}
