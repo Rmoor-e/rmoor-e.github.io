@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+   
+    <meta name="description" content="4Chan Ethnography
+This is a landing page for my ethnography research on 4Chan&rsquo;s pol that I want to make to get published so if I don&rsquo;t get into medical school this time, I&rsquo;ll have more things to add to my application. This is dystopian (no pun intended).
+If 4chan closes, it will cause a lot of social problems because Pennebaker showed that writing about your problems, which is tantamount to 4chan posting, reduces behavioral upsets.
+Use Apache Spark for Pol Research because it is designed to handle very large data sets. I don&rsquo;t have the RAM to do everything at once. However, I do have the CSV files for doing one-at-a-time analysis that I can export, and late compile for total analysis.1">  
+  
+
+  <title>
+    
+      
+    
+  </title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  <link rel="stylesheet" href="/css/unified.css" />
+
+  
+</head>
+<body a="auto">
+    <div class="bg-img">
+      <div class="container">
+        <div class="topnav">
+          <a href="/index.html">Home</a>
+          <a href="/resume/index.html">Resume</a>
+          <a href="/projects/index.html">Projects</a>
+          <br>
+          <a href="/hobbies/index.html">Hobbies</a>
+          <a href="/robert-moore-public-GPG.asc">PGP Key</a>
+          <a href="/experience/index.html">Experience</a>
+          <br>
+          <a href="/essays/index.html">Essays</a>
+          <a href="/guides/index.html">Guides</a>
+        </div>
+      </div>
+    </div>
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+
+
+
+<article>
+    <p class="post-meta">
+       
+    </p>
+
+    <h1></h1>
+
+    
+
+    <h1 id="4chan-ethnography">4Chan Ethnography</h1>
+<p>This is a landing page for my ethnography research on 4Chan&rsquo;s pol that I want to make to get published so if I don&rsquo;t get into medical school this time, I&rsquo;ll have more things to add to my application. This is dystopian (no pun intended).</p>
+<p><em><strong>If 4chan closes, it will cause a lot of social problems because Pennebaker showed that writing about your problems, which is tantamount to 4chan posting, reduces behavioral upsets.</strong></em><br>
+Use Apache Spark for Pol Research because it is designed to handle very large data sets. I don&rsquo;t have the RAM to do everything at once. However, I do have the CSV files for doing one-at-a-time analysis that I can export, and late compile for total analysis.1</p>
+<h1 id="work-flow-for-archive-only-data-gathering">Work Flow for Archive Only Data Gathering</h1>
+<ul>
+<li>Get the /pol/ archive
+<ul>
+<li>Added date: 2024-01-16 20:15:48</li>
+<li>42.4 Gb. [130Gb after <code>tar xf</code>]</li>
+<li>Admin of 4plebs told me to use this one.</li>
+<li>Used the <code>split</code>  command to break up the 130Gb file into 1266 files of 1,000,000 observations
+<ul>
+<li>So… roughly 1.3 trillion observations that need to be tokenized recursively in a for-loop.<br>
+<a href="https://archive.org/download/4plebs-org-data-dump-2024-01">4plebs-org-data-dump-2024-01 directory listing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="thoughts">Thoughts</h1>
+<ul>
+<li>Think about what to analyze, and how to do it.
+<ul>
+<li>What questions do I have?
+<ul>
+<li>How does text content change over time?</li>
+<li>What persists over time?</li>
+<li>How can this be leveraged for understanding online culture?</li>
+</ul>
+</li>
+<li>Which do I want to answer?</li>
+</ul>
+</li>
+</ul>
+<h2 id="from"><strong>From</strong></h2>
+<p><a href="https://git.scholastia.xyz/blue/4Chan-Web-Scraper-v2">4Chan-Web-Scraper-v2</a></p>
+<p><img src="files/image_g.png" alt="image"></p>
+<p><img src="files/image_1.png" alt="image"></p>
+<ul>
+<li>Data like this can give insights for further analysis and also making up something to ask questions.</li>
+</ul>
+<hr>
+<h1 id="goals">Goals</h1>
+<ul>
+<li>Understanding content focus over time based on word frequency</li>
+<li>Ask people to fill out surveys on beliefs and cross that data with text analysis?
+<ul>
+<li>
+<p>This would cost money…</p>
+<ul>
+<li>**Nope: **<br>
+<a href="https://www.infinityfree.com/">Free Web Hosting with PHP and MySQL</a></li>
+</ul>
+<p><strong>762love@pmlme ::: H25ZU69188nM2gSuMB5b [to log in to website]</strong><br>
+Account Label: Website for wasteland.000.pe<br>
+account username: if0_37590840<br>
+account password: 1VQIyLcRjJZ5H<br>
+I don&rsquo;t think they allow app hosting that I upload, like an R application. Maybe shinyapps can host me for free?</p>
+</li>
+<li>
+<p>But what would it tell me?</p>
+<ul>
+<li>Current declared beliefs can act as a filter for how current popular beliefs gained a foothold.</li>
+<li>I could narrow down the likert-scale and otherwise banal survey questions by seeing what is popular.
+<ul>
+<li><strong>Example:</strong> <em>Do you hate women based on them being women?  -5 to 0 to +5 rating of disagree → agree.</em></li>
+<li><strong>Example 2:</strong> *Do you have women based on their behaviour? -5 to 0 to +5 rating of disagree → agree. *</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Need to figure out how to make an R based survey. Maybe hostable on github or something for free? I don&rsquo;t want these guys having my IP or anything.</li>
+<li>For which words that indicate a topic
+<ul>
+<li>**Ask: Did you ever have a strong belief surrounding X, Y, or Z? What made you change? Did you forget about it? **</li>
+<li><strong>Analyze: Find other instances of active belief. This can track refugees. Public Matrix chats?</strong></li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="methods-and-materials">Methods and Materials</h1>
+<ul>
+<li><strong>Materials:</strong>
+<ul>
+<li>R, or Python for analysis
+<ul>
+<li>R studio or JupyterLab</li>
+<li>R or Python packages</li>
+</ul>
+</li>
+<li>wget for tar.gz retrieval from</li>
+<li>archive.org</li>
+<li>tar commands</li>
+<li>LaTeX</li>
+<li>[Survey Tool Hoster]</li>
+<li>4chan.org/boards/pol/</li>
+<li>[Hardware]</li>
+</ul>
+</li>
+<li><strong>Methods:</strong>
+<ul>
+<li>LOREM IPSUM</li>
+</ul>
+</li>
+</ul>
+<h1 id="struggles">Struggles</h1>
+<ul>
+<li><strong>Limitations</strong>:
+<ul>
+<li>Computer-based answers from content isn&rsquo;t always accurate, but this will give a general snapshot of how pol interacts over time.</li>
+<li>Some 4chan communication is image, or video, or audio-video based. This is undetectable by text analysis</li>
+<li>There are no headers for each file
+<ul>
+<li>I will have to find something convenient to name header files in each *.csv and then tokenize them, and then add numbers to names</li>
+</ul>
+</li>
+<li>NO DATES [I will probably have to ignore time as a factor and I can fakename dates as something like &ldquo;per million rows, this was the most common topic&rdquo; which is arbitrary but big enough to form a pattern since I have ~1200 files.</li>
+</ul>
+</li>
+<li>**R Limitations: **
+<ul>
+<li>I may need to use python to do this data analysis, or import a CSV into a database for querying.
+<ul>
+<li>I assume I&rsquo;d need 42Gb of RAM to just hold the data for analysis.</li>
+<li>My main desktop has ~30 I think? Maybe 18? I forget.</li>
+<li>The file is around 130Gb. Maybe I need to put it into an SQL database for easier handling? I&rsquo;ll need to figure out how to import it. It&rsquo;s also hard to see the <code>head</code>  of the file because it&rsquo;s so damn big.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>R Solutions:</strong>
+<ul>
+<li>Perhaps my GPU is stronger than my CPU and I can use that?</li>
+<li>CORS between server and desktop?</li>
+<li>After I write the code based on samples, maybe I can rent a big server through a tech company?</li>
+<li>Ask around on the R or JupyterLab forums to ask what the best approach to huge data analysis is.</li>
+</ul>
+</li>
+<li>The 4plebs admin avoided my question. Whatever — I&rsquo;ll move on.
+<pre tabindex="0"><code></code></pre></li>
+</ul>
+<p>This is the most recent CSV data dump that you can download
+<a href="https://archive.org/details/4plebs-org-data-dump-2024-01">https://archive.org/details/4plebs-org-data-dump-2024-01</a>
+<a href="https://archive.org/details/4plebs-org-data-dump-2024-01">https://archive.org/details/4plebs-org-data-dump-2024-01</a></p>
+<p>On Sat, Oct 26, 2024 at 5:56 PM 762 &lt;762love@pm.me <a href="mailto:762love@pm.me">mailto:762love@pm.me</a>&gt; wrote:</p>
+<pre><code>Thanks. I started working on this yesterday. Is there a most-recent CSV
+with included dates currently available for download, or possibly a
+database backup that I can query?
+
+On 10/14/24 11:09 AM, 4plebs Admin wrote:
+ &gt; Latest data dump is this one
+ &gt; https://archive.org/details/4plebs-org-data-dump-2024-01
+&lt;https://archive.org/details/4plebs-org-data-dump-2024-01&gt;
+ &gt; &lt;https://archive.org/details/4plebs-org-data-dump-2024-01
+&lt;https://archive.org/details/4plebs-org-data-dump-2024-01&gt;&gt;
+ &gt;
+ &gt; It's only available on archive.org &lt;http://archive.org&gt;
+&lt;http://archive.org &lt;http://archive.org&gt;&gt; so you have to wait for
+ &gt; them to get back online
+ &gt;
+</code></pre>
+<pre tabindex="0"><code> --- 
+   
+# Code I&#39;ve used   
+   
+</code></pre><p>wget <a href="https://archive.org/download/4plebs-org-data-dump-2024-01/pol.csv.tar.gz">https://archive.org/download/4plebs-org-data-dump-2024-01/pol.csv.tar.gz</a></p>
+<pre tabindex="0"><code>![image](files/image_e.png)    
+   
+- I found something that can split up the CSV files:    
+[How to split CSV files as per number of rows specified?](https://stackoverflow.com/questions/20721120/how-to-split-csv-files-as-per-number-of-rows-specified)    
+   
+</code></pre><p>#!/bin/bash
+split -l 1000000 -d —additional-suffix=.csv pol.csv pol</p>
+<h1 id="use-split-to">Use split to..</h1>
+<h1 id="choose-lines-start-1000000">choose lines start-1,000,000</h1>
+<h1 id="-d-add-a-number-at-the-end">-d add a number at the end</h1>
+<h1 id="additional-suffix--ass-csv-suffix">&ndash;additional-suffix = ass .csv suffix</h1>
+<h1 id="use-polcsv">use pol.csv</h1>
+<h1 id="name-the-new-file-polcsv">name the new file pol{<number>}.csv</h1>
+<pre tabindex="0"><code></code></pre><h1 id="how-to-delete-by-file-name-in-pwd">How to delete by file name in $PWD</h1>
+<p>ls | grep &ldquo;<pattern>&rdquo; | xargs rm</p>
+<pre tabindex="0"><code>- How to read/write CSVs from/to directory    
+[Write &amp;amp; Read Multiple CSV Files Using for-Loop in R (2 Examples)](https://statisticsglobe.com/r-write-read-multiple-csv-files-for-loop)    
+![image](files/image.png)    
+- I will need to do something for above to get ONLY words. I have something from my old 4Chan Web Scraper v2  script I think.   
+   
+# Code I&#39;ve Discarded   
+   
+</code></pre><p>Lorem Ipsum</p>
+<pre tabindex="0"><code>   
+ --- 
+   
+# Ethnography Notes: RStudio Videos and Texts   
+   
+Use per csv file machine learning as data and make program that uses sample test to rank the style of writing and words to new 4chan posts to see who is an old new fag   
+[https://tensorflow.rstudio.com/tutorials/keras/text\_classification.html](https://tensorflow.rstudio.com/tutorials/keras/text_classification.html)   
+[https://bookdown.org/yihui/rmarkdown-cookbook/eng-bash.html](https://bookdown.org/yihui/rmarkdown-cookbook/eng-bash.html)   
+This guy or the guy below   
+Data Professor   
+[https://www.youtube.com/watch?v=dRqtLxZVRuw](https://www.youtube.com/watch?v=dRqtLxZVRuw)   
+machine learning R   
+- R - Install R on USB: [https://www.youtube.com/watch?v=earYvB\_nRi4](https://www.youtube.com/watch?v=earYvB_nRi4)   
+- R - Layout: [https://www.youtube.com/watch?v=FafxYUnIaOM](https://www.youtube.com/watch?v=FafxYUnIaOM)   
+- R - Calculator on Steroids: [https://www.youtube.com/watch?v=E0WZrR8\_WGA](https://www.youtube.com/watch?v=E0WZrR8_WGA)   
+- R - Install R packages from CRAN: [https://www.youtube.com/watch?v=qe0Rx48uF8w](https://www.youtube.com/watch?v=qe0Rx48uF8w)   
+- R - Saving and Closing R: [https://www.youtube.com/watch?v=XfuaczpN\_Do](https://www.youtube.com/watch?v=XfuaczpN_Do)   
+- R - Data Structures (part 1) - vectors and factors: [https://www.youtube.com/watch?v=kL0-k\_NrIls](https://www.youtube.com/watch?v=kL0-k_NrIls)   
+- R - Data Structures (part 2) - data frames: [https://www.youtube.com/watch?v=WedM1kG9LLA](https://www.youtube.com/watch?v=WedM1kG9LLA)   
+- Importing Data in R - alternative easier method: [https://www.youtube.com/watch?v=yy-LTLw2Ey4](https://www.youtube.com/watch?v=yy-LTLw2Ey4)   
+- R - Exploring Data (part 1) - Import data in R: [https://www.youtube.com/watch?v=dJEhINzZOaw](https://www.youtube.com/watch?v=dJEhINzZOaw)   
+- R - Exploring Data (part 2) - Extraction &amp; Transformation: [https://www.youtube.com/watch?v=v11SWrC6qGk](https://www.youtube.com/watch?v=v11SWrC6qGk)   
+- R - Exploring Data (part 3) - Univariate Summaries: [https://www.youtube.com/watch?v=EVmuPZgTf2U](https://www.youtube.com/watch?v=EVmuPZgTf2U)   
+- R - Aggregate function: [https://www.youtube.com/watch?v=sqIYGUk9jc0](https://www.youtube.com/watch?v=sqIYGUk9jc0)   
+- R - Exploring Data (part 4) - Bivariate Summaries: [https://www.youtube.com/watch?v=BnBW2CUD0-A](https://www.youtube.com/watch?v=BnBW2CUD0-A)   
+- R - Exploring Data (part 5) - Multivariate Summaries: [https://www.youtube.com/watch?v=23AT9m1HkOI](https://www.youtube.com/watch?v=23AT9m1HkOI)   
+- R - Simple Linear Regression (part 1): [https://www.youtube.com/watch?v=wnIlld\_8lSg](https://www.youtube.com/watch?v=wnIlld_8lSg)   
+- R - Simple Linear Regression (part 2): [https://www.youtube.com/watch?v=m\_8XYVzT1IU](https://www.youtube.com/watch?v=m_8XYVzT1IU)   
+- R Square - clearly explained (part 1): [https://www.youtube.com/watch?v=iCmA5w\_YOmo](https://www.youtube.com/watch?v=iCmA5w_YOmo)   
+- R Square - clearly explained (part 2): [https://www.youtube.com/watch?v=t9u5kty3b0Q](https://www.youtube.com/watch?v=t9u5kty3b0Q)   
+- R - Multiple Regression (part 1): [https://www.youtube.com/watch?v=kl4RxV37ebk](https://www.youtube.com/watch?v=kl4RxV37ebk)   
+- R - Multiple Regression (part 2): [https://www.youtube.com/watch?v=exwJHLHY9Hw](https://www.youtube.com/watch?v=exwJHLHY9Hw)   
+- R - Multiple Regression (part 3): [https://www.youtube.com/watch?v=tvgif3X6an0](https://www.youtube.com/watch?v=tvgif3X6an0)   
+- kNN Machine Learning Algorithm - Excel: [https://www.youtube.com/watch?v=x69YhAapw4k](https://www.youtube.com/watch?v=x69YhAapw4k)   
+- R - kNN - k nearest neighbor (part 1): [https://www.youtube.com/watch?v=GtgJEVxl7DY](https://www.youtube.com/watch?v=GtgJEVxl7DY)   
+- R - kNN - k nearest neighbor (part 2): [https://www.youtube.com/watch?v=DkLNb0CXw84](https://www.youtube.com/watch?v=DkLNb0CXw84)   
+- CART Tree Basics: [https://www.youtube.com/watch?v=MmPmnQNEmQE](https://www.youtube.com/watch?v=MmPmnQNEmQE)   
+- R - Classification Trees (part 1 using C5.0): [https://www.youtube.com/watch?v=5NquIfQxpxk](https://www.youtube.com/watch?v=5NquIfQxpxk)   
+- R - Classification Trees (part 2 using rpart): [https://www.youtube.com/watch?v=XLNsl1Da5MA](https://www.youtube.com/watch?v=XLNsl1Da5MA)   
+- R - Regression Trees - CART: [https://www.youtube.com/watch?v=MoBw5PiW56k](https://www.youtube.com/watch?v=MoBw5PiW56k)   
+- CART Regression Trees Algorithm - Excel part 1: [https://www.youtube.com/watch?v=nWuUahhK3Oc](https://www.youtube.com/watch?v=nWuUahhK3Oc)   
+- CART Regression Trees Algorithm - Excel part 2: [https://www.youtube.com/watch?v=IQe2Icb1WKE](https://www.youtube.com/watch?v=IQe2Icb1WKE)   
+- R - Association Rules - Market Basket Analysis (part 1): [https://www.youtube.com/watch?v=b5hgDPa7a2k](https://www.youtube.com/watch?v=b5hgDPa7a2k)   
+- R - Association Rules - Market Basket Analysis (part 2): [https://www.youtube.com/watch?v=Gy\_nqzJMNrI](https://www.youtube.com/watch?v=Gy_nqzJMNrI)   
+- R - Twitter Mining with R (part 1): [https://www.youtube.com/watch?v=lT4Kosc\_ers](https://www.youtube.com/watch?v=lT4Kosc_ers)   
+- R - Twitter Mining with R (part 2) create WordCloud from Tweets: [https://www.youtube.com/watch?v=JoArGkOpeU0](https://www.youtube.com/watch?v=JoArGkOpeU0)   
+- Text Mining (part 1) - Import Text into R (single document): [https://www.youtube.com/watch?v=fga5gLtFQs0](https://www.youtube.com/watch?v=fga5gLtFQs0)   
+- Text Mining (part 2) - Cleaning Text Data in R (single document): [https://www.youtube.com/watch?v=gtQWMxWzs\_M](https://www.youtube.com/watch?v=gtQWMxWzs_M)   
+- Text Mining (part 3) - Sentiment Analysis and Wordcloud in R (single document): [https://www.youtube.com/watch?v=JM\_J7ufS-BU](https://www.youtube.com/watch?v=JM_J7ufS-BU)   
+- Text Mining (part4) - Postive and Negative Terms for Sentiment Analysis in R: [https://www.youtube.com/watch?v=WfoVINuxIJA](https://www.youtube.com/watch?v=WfoVINuxIJA)   
+- Text Mining (part 5) - Import a Corpus in R: [https://www.youtube.com/watch?v=pFinlXYLZ-A](https://www.youtube.com/watch?v=pFinlXYLZ-A)   
+- Text Mining (part 6) - Cleaning Corpus text in R: [https://www.youtube.com/watch?v=jCrQYOsAcv4](https://www.youtube.com/watch?v=jCrQYOsAcv4)   
+- Text Mining (part 7) - Comparison Wordcloud in R: [https://www.youtube.com/watch?v=pvjhm5TTd2A](https://www.youtube.com/watch?v=pvjhm5TTd2A)   
+- Text Mining (part 8) - Sentiment Analysis on Corpus in R: [https://www.youtube.com/watch?v=jt4WzWoSCyo](https://www.youtube.com/watch?v=jt4WzWoSCyo)   
+- Rmarkdown - Introduction and Basics: [https://www.youtube.com/watch?v=tKUufzpoHDE](https://www.youtube.com/watch?v=tKUufzpoHDE)   
+- R - run R non-interactively with BATCH file: [https://www.youtube.com/watch?v=Guw2XgGvl44](https://www.youtube.com/watch?v=Guw2XgGvl44)   
+- Create Training and Test data in R: [https://www.youtube.com/watch?v=nXIzNAa4mFo](https://www.youtube.com/watch?v=nXIzNAa4mFo)   
+- RStudio Cloud - upload data set: [https://www.youtube.com/watch?v=-tQDr4kzAGY](https://www.youtube.com/watch?v=-tQDr4kzAGY)   
+- R - Mac getting started part 1: [https://www.youtube.com/watch?v=6XGI-2RDa7Y](https://www.youtube.com/watch?v=6XGI-2RDa7Y)   
+- R - Mac getting started part 2: [https://www.youtube.com/watch?v=SEg75c4hS64](https://www.youtube.com/watch?v=SEg75c4hS64)   
+- R - import data, save history, getting started in R: [https://www.youtube.com/watch?v=XZN910MLiyQ](https://www.youtube.com/watch?v=XZN910MLiyQ)   
+- R - saving and restarting where you left off: [https://www.youtube.com/watch?v=N1gOuvGkGBk](https://www.youtube.com/watch?v=N1gOuvGkGBk)   
+   
+   
+# Old Workflow for Real Time Scraping: 4Chan Web Scraper v2    
+   
+- **Politically Incorrect web scrape v2:** can be used for real-time analysis instead of relying on archive updates   
+    - **Use case:** One example is how 4chan changes before, during, and after, a U.S.A election.   
+    -    
+   
+   
+</code></pre>
+</article>
+
+                
+    
+    
+        
+    
+
+
+            </div>
+        </main>
+        <div class="image3"> 
+        <img src="/css/quil.png" alt="psyquil" width="auto">
+        </div>
+    </body>
+</html>
+
+

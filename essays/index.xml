@@ -6,35 +6,21 @@
     <description>Recent content in Essays on Robert J. Moore</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jun 2025 19:35:49 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 09 Jul 2025 18:30:16 -0300</lastBuildDate>
     <atom:link href="https://rmoor-e.github.io/essays/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI vs MD</title>
+      <title>Radical Love</title>
+      <link>https://rmoor-e.github.io/essays/radical-love/</link>
+      <pubDate>Wed, 09 Jul 2025 18:30:16 -0300</pubDate>
+      <guid>https://rmoor-e.github.io/essays/radical-love/</guid>
+      <description>&lt;p&gt;In the hot summer, I do reflect on topics that otherwise would not reach the mind of even the most critical of thinkers. Though, please do save the ones who think deeply about the most base of building blocks: cornerstones aren&amp;rsquo;t to be discarded lest the entire upwards efforts come falling down. This essay will explore Maslow&amp;rsquo;s pyramid. However, I do seek to unsettle Maslow&amp;rsquo;s pyramid&amp;ndash;perhaps, even to overthrow the common sense apprasial of human needs and instead to show how I view the world.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AIMD</title>
       <link>https://rmoor-e.github.io/essays/ai-vs-md/</link>
       <pubDate>Wed, 18 Jun 2025 19:35:49 -0300</pubDate>
       <guid>https://rmoor-e.github.io/essays/ai-vs-md/</guid>
-      <description>&lt;p&gt;Artificial Intelligence (AI)&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; is rapidly emerging. The online, and physical landscape has been everchanging since the popularization of Large Language Models (LLM). AI can be seen as a logorithm of yes/no, or true/false, statements that sequentially result in some output. LLMs are, as in the name: large. The language model side of the LLM operates on the language(s) we use: common parlance, or technical language. Of course, medicine (MD, or PhD) is a broad scope of practice that encompases &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; the known, and unknown, human body affects. AI will, through great effort, unhinge traditional careers such as medicine, with no gain to the patient, or public. This essay argues that AI is inferior to a physicians mind for several reasons. This essay explores the reasons as to why AI is inferior, now and forever, to a physician&amp;rsquo;s relationship, assessment, and performance.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test3</title>
-      <link>https://rmoor-e.github.io/essays/test3/</link>
-      <pubDate>Wed, 18 Jun 2025 15:52:01 -0300</pubDate>
-      <guid>https://rmoor-e.github.io/essays/test3/</guid>
-      <description>&lt;p&gt;To position the &amp;ldquo;Return Home&amp;rdquo; button in the middle while keeping the &amp;ldquo;Older Essay&amp;rdquo; and &amp;ldquo;Newer Essay&amp;rdquo; buttons on either side, you can use a combination of flexbox properties. Here’s how to achieve that:&#xA;Step 1: Update the HTML Structure&lt;/p&gt;&#xA;&lt;p&gt;You can wrap the &amp;ldquo;Return Home&amp;rdquo; button in a separate div to help with the layout. Here’s the updated HTML structure:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test2</title>
-      <link>https://rmoor-e.github.io/essays/test2/</link>
-      <pubDate>Wed, 18 Jun 2025 15:18:16 -0300</pubDate>
-      <guid>https://rmoor-e.github.io/essays/test2/</guid>
-      <description>&lt;p&gt;What is Lorem Ipsum?&lt;/p&gt;&#xA;&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>https://rmoor-e.github.io/essays/test/</link>
-      <pubDate>Wed, 18 Jun 2025 15:14:23 -0300</pubDate>
-      <guid>https://rmoor-e.github.io/essays/test/</guid>
-      <description>&lt;p&gt;You can edit config.toml file to customize your blog. You can change things such as the name of the blog, the author, the appearance of the theme (light, dark or auto), how dates are formatted, etc. Customizable fields should be straightforward to understand. Still, config.toml contains some comments to help you understand what each field does. Note that the config.toml under root directory of your hugo site will completely override the one in the theme directory, so copy the attributes you want to keep o&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Artificial Intelligence (AI) is rapidly over-taking organic cognitive power.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; The online, and physical landscape has been everchanging since the popularization of Large Language Models (LLMs). AI can be seen as a logorithm of yes&amp;ndash;no, or true&amp;ndash;false, statements that sequentially result in some output. This is a gross simplification of the true math involved in constructing A.I. to its known performance.&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; LLMs are, as in the name: large. The language model side of the LLM operates on the language(s) we use: common parlance, or technical language. Of course, medicine (MD, or PhD) is a broad scope of practice that encompases the known, and unknown, human body affects.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
