@@ -84,6 +84,15 @@ p {
     color: #FBFAF5 !important;
 }
 
+p.poetry {
+    text-align: justify;
+    width: 100%;
+    line-height: 2.0 !important;
+    margin-bottom: 1em; /* Fixed typo */
+    color: #FBFAF5 !important;
+	
+}
+
 p:nth-of-type(n+2) {
     text-indent: 30px; /* Adjust the value as needed */
 }

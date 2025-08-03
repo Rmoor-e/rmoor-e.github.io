@@ -2,51 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/guides/essays/</loc>
-    <lastmod>2025-07-14T17:57:21-03:00</lastmod>
+    <loc>https://rmoor-e.github.io/projects/gregobase/</loc>
+    <lastmod>2025-08-03T14:28:18-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-14T17:57:21-03:00</lastmod>
+    <loc>https://rmoor-e.github.io/projects/</loc>
+    <lastmod>2025-08-03T14:28:18-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/guides/</loc>
+    <loc>https://rmoor-e.github.io/</loc>
+    <lastmod>2025-08-03T14:28:18-03:00</lastmod>
+  </url><url>
+    <loc>https://rmoor-e.github.io/guides/</loc>
     <lastmod>2025-07-14T17:52:39-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/essays/</loc>
+    <loc>https://rmoor-e.github.io/essays/</loc>
     <lastmod>2025-07-09T18:30:16-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/essays/radical-love/</loc>
+    <loc>https://rmoor-e.github.io/essays/radical-love/</loc>
     <lastmod>2025-07-09T18:30:16-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/ethnography/4chan/</loc>
+    <loc>https://rmoor-e.github.io/projects/ethnography/4chan/</loc>
     <lastmod>2025-07-09T15:30:07-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
-    <lastmod>2025-07-09T15:30:07-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects/prose/</loc>
+    <loc>https://rmoor-e.github.io/projects/prose/</loc>
     <lastmod>2025-07-01T11:17:27-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/essays/ai-vs-md/</loc>
+    <loc>https://rmoor-e.github.io/essays/ai-vs-md/</loc>
     <lastmod>2025-06-18T19:35:49-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hobbies/portfolio/</loc>
+    <loc>https://rmoor-e.github.io/hobbies/portfolio/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/ethnography/4chan-ethnography/</loc>
+    <loc>https://rmoor-e.github.io/projects/ethnography/4chan-ethnography/</loc>
   </url><url>
-    <loc>http://localhost:1313/resume/</loc>
+    <loc>https://rmoor-e.github.io/resume/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://rmoor-e.github.io/projects/binding/</loc>
   </url><url>
-    <loc>http://localhost:1313/hobbies/</loc>
+    <loc>https://rmoor-e.github.io/projects/binding/binding/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/hymnal/hymnal/</loc>
+    <loc>https://rmoor-e.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/poetry/</loc>
+    <loc>https://rmoor-e.github.io/hobbies/</loc>
   </url><url>
-    <loc>http://localhost:1313/projects/privacy-invasion/</loc>
+    <loc>https://rmoor-e.github.io/projects/hymnal/hymnal/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://rmoor-e.github.io/projects/poetry/</loc>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>https://rmoor-e.github.io/projects/privacy-invasion/</loc>
+  </url><url>
+    <loc>https://rmoor-e.github.io/tags/</loc>
+  </url><url>
+    <loc>https://rmoor-e.github.io/experience/</loc>
   </url>
 </urlset>
