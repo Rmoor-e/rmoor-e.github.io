@@ -2,55 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://rmoor-e.github.io/projects/gregobase/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-08-03T19:08:52-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/guides/school-workflow/</loc>
+    <lastmod>2025-08-03T19:08:52-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/gregobase/</loc>
     <lastmod>2025-08-03T14:28:18-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2025-08-03T14:28:18-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/</loc>
-    <lastmod>2025-08-03T14:28:18-03:00</lastmod>
+    <loc>http://localhost:1313/guides/how-to-write-essays/</loc>
+    <lastmod>2025-07-14T17:57:21-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/guides/</loc>
+    <loc>http://localhost:1313/guides/</loc>
     <lastmod>2025-07-14T17:52:39-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/essays/</loc>
+    <loc>http://localhost:1313/essays/</loc>
     <lastmod>2025-07-09T18:30:16-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/essays/radical-love/</loc>
+    <loc>http://localhost:1313/essays/radical-love/</loc>
     <lastmod>2025-07-09T18:30:16-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/ethnography/4chan/</loc>
+    <loc>http://localhost:1313/projects/ethnography/4chan/</loc>
     <lastmod>2025-07-09T15:30:07-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/prose/</loc>
+    <loc>http://localhost:1313/projects/prose/</loc>
     <lastmod>2025-07-01T11:17:27-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/essays/ai-vs-md/</loc>
+    <loc>http://localhost:1313/essays/ai-vs-md/</loc>
     <lastmod>2025-06-18T19:35:49-03:00</lastmod>
   </url><url>
-    <loc>https://rmoor-e.github.io/hobbies/portfolio/</loc>
+    <loc>http://localhost:1313/hobbies/portfolio/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/ethnography/4chan-ethnography/</loc>
+    <loc>http://localhost:1313/projects/ethnography/4chan-ethnography/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/resume/</loc>
+    <loc>http://localhost:1313/resume/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/binding/</loc>
+    <loc>http://localhost:1313/projects/binding/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/binding/binding/</loc>
+    <loc>http://localhost:1313/projects/binding/binding/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/hobbies/</loc>
+    <loc>http://localhost:1313/hobbies/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/hymnal/hymnal/</loc>
+    <loc>http://localhost:1313/projects/hymnal/hymnal/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/poetry/</loc>
+    <loc>http://localhost:1313/projects/poetry/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/projects/privacy-invasion/</loc>
+    <loc>http://localhost:1313/projects/privacy-invasion/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://rmoor-e.github.io/experience/</loc>
+    <loc>http://localhost:1313/experience/</loc>
   </url>
 </urlset>

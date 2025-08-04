@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Binding of Hymnal on Robert J. Moore</title>
-    <link>https://rmoor-e.github.io/projects/binding/</link>
+    <link>http://localhost:1313/projects/binding/</link>
     <description>Recent content in Binding of Hymnal on Robert J. Moore</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://rmoor-e.github.io/projects/binding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/binding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Binding of Hymnal</title>
-      <link>https://rmoor-e.github.io/projects/binding/binding/</link>
+      <link>http://localhost:1313/projects/binding/binding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://rmoor-e.github.io/projects/binding/binding/</guid>
+      <guid>http://localhost:1313/projects/binding/binding/</guid>
       <description>&lt;p class=&#34;description&#34;&gt;&#xA;For typesetting this project, &lt;em&gt; Scribus&lt;/em&gt; was used, along with other peripheral software: Libre Office, pdfbook2, etc.&#xA;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p&gt;sdfsdf&#xA;&lt;img class=&#34;typeset&#34; src=&#34;Binding.png&#34;&gt;&lt;/p&gt;&#xA;&lt;img class=&#34;typeset&#34; src=&#34;sample_new_typeset.jpg&#34;&gt;</description>
     </item>
   </channel>

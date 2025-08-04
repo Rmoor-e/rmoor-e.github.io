@@ -6,7 +6,21 @@
     <description>Recent content in Guides on Robert J. Moore</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 19:08:52 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>School Workflow</title>
+      <link>http://localhost:1313/guides/school-workflow/</link>
+      <pubDate>Sun, 03 Aug 2025 19:08:52 -0300</pubDate>
+      <guid>http://localhost:1313/guides/school-workflow/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;For a long time I used a particular set-up for my undergraduate studies. However, after I begin medical school in a few weeks, I&amp;rsquo;ll be using something different, and I think, superior.&lt;/p&gt;&#xA;&lt;h2 id=&#34;bsc&#34;&gt;BSC&lt;/h2&gt;&#xA;&lt;p&gt;Below I will cover Joplin, MasterPDF Editor Free, LatTeX and Lyx, LibreOffice Writer, Stationary, Calendar, Contacts, and finally Email.&lt;/p&gt;&#xA;&lt;h3 id=&#34;joplin&#34;&gt;Joplin&lt;/h3&gt;&#xA;&lt;p&gt;Joplin doesn&amp;rsquo;t have a native PDF viewer. I had to use MasterPDF Editor which is covered below. Otherwise, I&amp;rsquo;d structure Joplin like the figure below, and it worked just fine for organization and regular typing&amp;mdash;until it didn&amp;rsquo;t. I wanted to use either pure MarkDown, or Rich text. Though, Joplin has a button problem and any time a user would click the Rich Text button after writing everything in MarkDown, it&amp;rsquo;d break your beautiful MD formatting. The solution was to switch from Viewer mode to Edit mode, while disabling Rich Text Editor mode. Another annoying hiccup was that MarkDown view didn&amp;rsquo;t have PDF preview where one could scroll through the PDF, make annotations, or anything. So, I&amp;rsquo;d find myself clicking between the MD Editor and MD Viewer panes frequently&amp;mdash;the side-by-side view is hideous. I got rid of Joplin, and imported all of my files to Zotero in a &lt;code&gt;/University/*&lt;/code&gt; section.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Essays</title>
+      <link>http://localhost:1313/guides/how-to-write-essays/</link>
+      <pubDate>Mon, 14 Jul 2025 17:57:21 -0300</pubDate>
+      <guid>http://localhost:1313/guides/how-to-write-essays/</guid>
+      <description>&lt;p class=&#34;description&#34;&gt;&#xA;This webpage considers the process of writing an essay. In the first part, there will be a structural approach, and in the second part I will approach the artistic practices.&#xA;&lt;/p&gt;&#xA;&lt;h1 id=&#34;part-one&#34;&gt;Part One&lt;/h1&gt;&#xA;&lt;p class=&#34;description&#34;&gt;&#xA;This information below is from an essay outline that I completed in my last year of university. Before we were allowed to submit an essay in this course, we first needed to satisfy the outline principle. &#xA;&lt;/p&gt;&#xA;&lt;p&gt;I do like this method of writing for beginners, and advanced writing.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

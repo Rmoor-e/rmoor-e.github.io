@@ -29,6 +29,8 @@ body {
     vertical-align: center;
     margin: auto;
     min-height: 100%;
+    font-family: Bookman;
+
 }
 
 html {
@@ -56,7 +58,7 @@ h3 {
 
 /* Style for inline code */
 code {
-    font-family: monospace; /* Use a generic monospace font */
+    font-family: 'Courier New', Courier, monospace;
     background-color: #f4f4f4; /* Light background for contrast */
     color: #333; /* Dark text color */
     padding: 2px 4px; /* Padding around the text */
